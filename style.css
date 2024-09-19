@@ -1,0 +1,145 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.navigation{
+    width: 100%;
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+
+.navLink{
+    color: #282822;
+    font-size: 22px;
+    line-height: 22px;
+}
+.s_main{
+    font-size: 17px;
+}
+.main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    font-size: 30px;
+}
+.s_main_vert{
+    font-size: 17px;
+    transform: rotate(270deg);
+    transform-origin: left;
+}
+.mainPicture{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.AboutMe{
+    background-color: rgb(240, 240, 240);
+}
+.About_text{
+    font-size: 20px;
+    line-height: 19px;
+    margin-top: 30px; 
+}
+.About_text_h{
+    font-size: 30px;
+    line-height: 19px;
+    margin-top: 30px; 
+}
+.About{
+    max-width: 940px;
+    margin: 0 auto;
+    height: 400px;
+    text-align: center;
+    padding-top: 50px;
+}
+.bold{
+    font-weight: bold;
+}
+.Skills{
+    max-width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    height: 500px;
+}
+.Skills_text{
+    font-size: 20px;
+    line-height: 19px;
+    margin-top: 50px; 
+}
+.Skills_text_h{
+    font-size: 30px;
+    line-height: 19px;
+    margin-top: 30px; 
+}
+.wrapper{
+    justify-items: center;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.image_skills{
+    margin-left: 170px;
+}
+.gray{
+    color: gray;
+}
+.Portfolio_main{
+    background-color: rgb(240, 240, 240);
+    height: 2100px;
+}
+.Portfolio{
+    max-width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.image_portfolio{
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+.text_portfolio{
+    text-decoration-line: underline;
+}
+.footer{
+    max-width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.main_text_footer{
+    font-size: 30px;
+    line-height: 19px;
+    margin-top: 30px; 
+}
+.text_footer{
+    line-height: 19px;
+    margin-top: 25px; 
+    margin-bottom: 25px;
+}
+.button_footer{
+    margin-bottom: 60px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    width: 160px;
+    height: 40px;
+    font-size: 18px;
+}
